@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<link href="style.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+		<div class="parent">
+		<h3>Фильтрация по: </h3><button onclick="btn_filter_table(0)">размеру</button><button onclick="btn_filter_table(1)">цене</button>
+		<div id='org_div1'></div><br/><br/><br/>
+		<h3>круговая диаграмма</h3>
+		<div id='org_div2'></div><br/><br/>
+		<canvas id ="chart"></canvas>
+		</div>
+		<script src="chart.js"></script>
+		<script src='table.js' charset="utf-8"></script>
+    </body>
+</html>
+
+
